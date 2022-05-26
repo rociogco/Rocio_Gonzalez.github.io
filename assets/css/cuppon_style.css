@@ -1,0 +1,28 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    background-color: #28A745;
+    color:#FFFFFF;
+}
+.producto{
+    height: 180px;
+}
+
+form{
+    background-color: #28A745;
+    color:#FFFFFF;
+}
+
+.texto{
+    font-weight: 300;
+}
+
+.cuppon{
+    width: 82px;
+}
+
+.logo-navbar{
+    height: 60px;
+}
