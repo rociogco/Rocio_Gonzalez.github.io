@@ -1,413 +1,159 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <title>Desafío Final</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <title>Rocio Gonzalez</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
-        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="assets/css/estilos.css">
-    <link rel="icon" type="image/png" href="assets/img/logo.png">
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-</head>
+  </head>
+  <body>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#Hero-Section">
-                <img class="logo" src="assets/img/logo.png" class="img-fluid">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Acerca-de-mi">Acerca de mi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Mis-trabajos">Trabajos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#cursos">Cursos y Certificaciones</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Contacto">Contacto</a>
-                    </li>
-
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
-
-            </div>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
 
-    <header id="Hero-Section" class="text-light text-end py-5 mt-5">
-        <div class="container">
-            <div class="ms-auto col-12 col-md-7 ">
-                <h1 class="display-1 fw-bold my-5">
-                    Experiencia<br> de usuario
-                </h1>
-                <p class="my-5">
-                    Profesional dedicada a mejorar las experiencias de usurios en distintas áreas. 
-                </p>
-                <div class="mb-5 pb-5">
-                    <a class="btn btn-lg btn-outline-dark text-light me-4" href="#Mis-trabajos" role="button">Trabajos</a>
-                    <a class="btn btn-lg btn-dark text-light" href="#Contacto" role="button">Contacto</a>
-                </div>
-            </div>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-    </header>
-
-
-    <section id="Acerca-de-mi" class="container text-center my-5">
-
-
-        <h2 class="display-3 fw-bold my-4">Acerca de mi</h2>
-
-        <p class="my-4">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio quisquam distinctio, odit laborum aliquam
-            earum itaque cum sequi, dolorem optio vol
-        </p>
-
-
-        <div class="row">
-            <div class="col-12 col-md-4">
-                <i class="fas fa-camera fa-3x my-3"></i>
-                <h3 class="my-3 fw-bold">Fotógrafa de comida</h3>
-                <p class="my-3">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.
-                </p>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
             </div>
-            <div class="col-12 col-md-4">
-                <i class="fas fa-bullhorn fa-3x my-3"></i>
-                <h3 class="my-3 fw-bold">Crítica culinaria</h3>
-                <p class="my-3">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.
-                </p>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
             </div>
-            <div class="col-12 col-md-4">
-                <i class="bi bi-shop fa-3x my-3"></i>
-                <h3 class="my-3 fw-bold">Emprendedora</h3>
-                <p class="my-3">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.
-                </p>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
             </div>
+          </div>
         </div>
-    </section>
-
-
-    <section id="Mis-trabajos" class="my-5 p-5 bg-secondary">
-
-        <h2 class="display-4 fw-bold text-center text-light mb-3">Mis trabajos</h2>
-
-        <div class="row">
-            <div class="col-12 col-sm-4 py-2">
-                <div class="card">
-                    <div class="image-top" style="background-image: url(assets/img/card-1.jpg)"></div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Princess Cruises</h5>
-                        <p class="card-text">
-                            Trabajo de Servicio al Cliente a bordo de cruceros de pasajeros. La función principal del
-                            Jr. Assistant Purser es tener conocimiento completo del barco, incluyendo actividades que se
-                            realizan a bordo y en los puertos del recorrido.
-                        </p>
-                        <button type="button" class="btn btn-outline-secondary">
-                            Ver más
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-4 py-2">
-                <div class="card">
-                    <div class="image-top" style="background-image: url(assets/img/card-2.jpg)"></div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Viña Santa Rita</h5>
-                        <p class="card-text">
-                            Servicio al cliente en atención B2B para los clientes de exportaciones. El Head Customer
-                            Service es el encargado de ser el nexo entre el cliente, el departamento comercial y el área
-                            de producción de la viña.
-                        </p>
-                        <button type="button" class="btn btn-outline-secondary">
-                            Ver más
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-4 py-2">
-                <div class="card">
-                    <div class="image-top" style="background-image: url(assets/img/card-3.jpg)"></div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Club Mambo</h5>
-                        <p class="card-text">
-                            Emprendimiento propio de accesorios para mascota.
-                            Puesto en marcha en Diciembre de 2021, es aún un trabajo en desarrollo.
-                            Puesta en marcha de la empresa desde cero.
-                        </p>
-                        <button type="button" class="btn btn-outline-secondary">
-                            Ver más
-                        </button>
-                    </div>
-                </div>
-            </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
-
-        <a target="_blank" href="index2.html"><button type="button"
-                class="btn btn-dark mt-5 btn-lg d-grid gap-2 col-6 mx-auto">Ver Historia Laboral completa</button></a>
-
-    </section>
-
-    <section id="cursos" class="my=5 p-5">
-        <h2 class="display-4 fw-bold text-center text-dark mb-3">Mis Cursos</h2>
-
-        <div class="accordion" id="accordionCursos">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        2022 - Fundamentos Desarrollo Web
-                    </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                    data-bs-parent="#accordionCursos">
-                    <div class="accordion-body">
-                        <strong>Desafío Latam.</strong> Curso introductorio de 6 semanas (18 horas) que entrega las herramientas para el desarrollo de sitios web.<br>Aprendizaje de lenguajes básicos de la programación HTML y CSS, Diseño responsiyo y control de versiones GIT.
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        2022 - Programa Dreambuilder
-                    </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                    data-bs-parent="#accordionCursos">
-                    <div class="accordion-body">
-                        <strong>Thunderbird School of Global Management</strong> Programa de 30 horas que busca crear una estructura paso a paso para iniciar o hacer crecer una empresa propia. El objetivo de este programa es crear un plan de negocios completo y personalizado.
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        2019 - Inglés Avanzado
-                    </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                    data-bs-parent="#accordionCursos">
-                    <div class="accordion-body">
-                        <strong>eClass Academy</strong> Curso de 9 meses de inglés conversacional avanzado orientado a empresas y negocioaciones B2B.
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingFour">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        2019 - Técnicas para mejorar la atención directa y teléfonica al cliente
-                    </button>
-                </h2>
-                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>Universidad Católica de Chile.</strong> Curso de 30 horas enfocado a comprender que el cliente es el elemento central en toda empresa. Este curso pretende capacitar a aquellas personas que atienden clientes de una empresa, para que puedan responder a las necesidades y expectativas de éstos, teniendo como base los conceptos sobre quién es el cliente, la importancia del servicio a entregar, los diferentes tipos de clientes que existen, cómo recuperar a clientes insatisfechos, los aspectos generales respecto a la atención telefónica de clientes a través del conocimiento de la importancia del proceso de comunicación y, al mismo tiempo, agregar valor a la cadena de servicio de la propia empresa.
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingFive">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                        2018 - Diplomado en Marketing Estratégico y Rentabilización de Clientes
-                    </button>
-                </h2>
-                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                    data-bs-parent="#accordionCursos">
-                    <div class="accordion-body">
-                        <strong>Universidad de Chile.</strong> Diplomado de un total de 132 horas. Nuestros estudiantes aprenden a crear e implementar estrategias centradas en el cliente.
-                        Conceptualizan y adquieren habilidades para conseguir mayores retornos, mejorando la retención de clientes, disminuyendo la sensibilidad al precio en la cartera y mejorando la promoción de la marca. Reducir y controlar costos, debido a la eficiencia en la adquisición de clientes, disminución de reclamos por la revisión de procesos y menores requerimientos de servicio desde clientes satisfechos y fieles. Este nuevo enfoque les permite construir indicadores claves de desempeño que fusionan métricas financieras, marketing y monetización digital. 
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingSix">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                        2017 - Manejo avanzado de la planilla de cálculo Excel
-                    </button>
-                </h2>
-                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                    data-bs-parent="#accordionCursos">
-                    <div class="accordion-body">
-                        <strong>Universidad Católica e Chile</strong> programa de capacitación, con el objetivo de instruir a las personas en el manejo avanzado de la planilla de cálculo Excel, de tal manera que puedan obtener resultados más eficientes en la elaboración de planillas de cálculo y en la gestión de bases de datos.
-
-                        Durante el desarrollo del curso, los participantes aprenderán diversas funcionalidades optimizadas de Excel, con las cuales podrán resolver rápidamente todo tipo de cálculos, administrar datos y diagramar documentos de alta calidad profesional.
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingSeven">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                        2015 - Portugués básico
-                    </button>
-                </h2>
-                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
-                    data-bs-parent="##accordionCursos">
-                    <div class="accordion-body">
-                        <strong>ICB Idiomas</strong> 
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingEight">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                        2014 - Técnicas básicas para combatir el fuego.
-                    </button>
-                </h2>
-                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
-                    data-bs-parent="##accordionCursos">
-                    <div class="accordion-body">
-                        <strong>Emitido por el Departamento de Bomberos de Juneau, Alaka - USA</strong> It is hidden by default, until the
-                        collapse plugin adds the appropriate classes that we use to style each element. These classes
-                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                        does limit overflow.
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingNine">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                        2013 - Personal Survival Techniques Certificate
-                    </button>
-                </h2>
-                <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
-                    data-bs-parent="##accordionCursos">
-                    <div class="accordion-body">
-                        <strong>Issued by Maritime Coast Guard Agency (MCA), UK.</strong> It is hidden by default, until the
-                        collapse plugin adds the appropriate classes that we use to style each element. These classes
-                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                        does limit overflow.
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTen">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                        2013 - Proficiency in Survival Craft and Rescue Boats
-                    </button>
-                </h2>
-                <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
-                    data-bs-parent="#accordionCursos">
-                    <div class="accordion-body">
-                        <strong>Issued by Maritime Coast Guard Agency (MCA), UK</strong> It is hidden by default, until the
-                        collapse plugin adds the appropriate classes that we use to style each element. These classes
-                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                        does limit overflow.
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingEleven">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-                        2003 - 2007 - Adminisración Hotelera.
-                    </button>
-                </h2>
-                <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
-                    data-bs-parent="#accordionCursos">
-                    <div class="accordion-body">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                        collapse plugin adds the appropriate classes that we use to style each element. These classes
-                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                        does limit overflow.
-                    </div>
-                </div>
-            </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
         </div>
+      </div>
 
-    </section>
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
 
-    <section id="Contacto" class="container my-5">
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
 
-        <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
 
-        <p class="text-center my-4 d-none d-md-block">Para proyectos futuros, por favor deja tu mensaje y me pondré en
-            contácto contigo lo antes posible.</p>
-
-        <form>
-
-
-            <div class="form-group mb-4">
-                <label class="mb-2">Nombre</label>
-                <input class="form-control" placeholder="Nombre">
-            </div>
-
-            <div class="form-group mb-4">
-                <label class="mb-2">Correo electrónico</label>
-                <input class="form-control" placeholder="Correo electrónico" />
-            </div>
-
-
-            <div class="form-group">
-                <label class="mb-2">Mensaje</label>
-                <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
-            </div>
-
-            <div class="my-3 text-end">
-                <button class="btn btn-dark text-light">Enviar</button>
-            </div>
-
-
-
-        </form>
-
-    </section>
-
-
-
-    <footer class="bg-dark text-center text-light p-4">
-        <p class="mb-0">Rocio Gonzalez 2022.<br>
-            Todos los derechos reservados.</p>
-    </footer>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-</body>
-
+    
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </body>
 </html>
